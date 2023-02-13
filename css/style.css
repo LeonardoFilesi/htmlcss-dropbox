@@ -150,6 +150,9 @@ header {
     margin: 0 auto;
 }
 
+.jumbo-image {
+}
+
 .jumbo-png {
     width: 100%;
 }
@@ -167,6 +170,7 @@ header {
 
 .fatturazione {
     padding: 20px;
+    
 }
 
 .fatturazione p {
