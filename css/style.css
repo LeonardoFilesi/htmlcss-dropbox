@@ -42,16 +42,22 @@ header {
 
 .navigation-bar {
     position: fixed;
-    min-height: 100px;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
     padding: 20px;
-    align-items: center;
     width: 100%;
     height: 80px;
     background-color: white;
 }
 
+.left-content {
+    min-width: 450px;
+    padding: 5px;
+}
+
 .logo {
-    width: 10%;
+    height: 80%;
 }
 
 .nav-options {
@@ -61,6 +67,11 @@ header {
 .nav-options a {
     text-decoration: none;
     margin-left: 3px;
+}
+
+.right-content {
+    min-width: 450px;
+    padding: 5px;
 }
 
 .nav-interface {
@@ -82,10 +93,10 @@ header {
 
 /* distanziato dal top per la stessa altezza del contenitore flex di header, soluzione troppo empirica */
 .jumbotron {
-    margin-top: 98px;
+    margin-top: 80px;
     width: 100%;
-    min-height: 600px;
-    background-color: rgb(25, 74, 166);
+    min-height: 550px;
+    background-color: rgb(134, 127, 243);
     padding-top: 30px;
     justify-content: end;
 }
@@ -107,7 +118,7 @@ header {
 
 .arrow-down {
     font-size: 30px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto;
 }
 
 .jumbo-png {
