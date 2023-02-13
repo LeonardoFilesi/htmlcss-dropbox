@@ -13,6 +13,18 @@
     display: flex;
 }
 
+.container {
+    min-height: 400px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container2 {
+    min-height: 400px;
+    width: 60%;
+    margin: 0 auto;
+}
+
 /* HEADER */
 
 header {
@@ -72,12 +84,6 @@ header {
     min-height: 600px;
     background-color: rgb(25, 74, 166);
     padding-top: 30px;
-}
-
-.container {
-    min-height: 400px;
-    width: 80%;
-    margin: 0 auto;
     justify-content: end;
 }
 
@@ -96,6 +102,27 @@ header {
     justify-content: space-between;
 }
 
+.arrow-down {
+    font-size: 30px;
+    margin: 0 auto 20px auto;
+}
+
 .jumbo-png {
     width: 100%;
+}
+
+/* END JUMBOTRON */
+
+
+.title2 {
+    font-size: 2.4rem;
+    padding: 100px 20px 20px 20px;
+}
+
+.fatturazione {
+    padding: 20px;
+}
+
+.fatturazione p {
+    margin-right: 10px;
 }
