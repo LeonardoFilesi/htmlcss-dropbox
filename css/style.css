@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     border: 1px solid red;
-    color: rgb(54, 54, 54);
+    color: rgb(32, 32, 32);
 }
 
 /* COMMON */
@@ -26,10 +26,11 @@ header {
     align-items: center;
     width: 100%;
     height: 80px;
+    background-color: white;
 }
 
 .logo {
-    width: 15%;
+    width: 10%;
 }
 
 .nav-options {
@@ -51,8 +52,50 @@ header {
     margin-left: 3px;
 }
 
-.begin {
+.blue-link {
+    text-decoration: none;
     background-color: rgb(0, 49, 226);
     color: white;
     padding: 5px 10px;
+}
+
+/* END HEADER */
+
+/* MAIN */
+
+/* JUMBOTRON */
+
+/* distanziato dal top per la stessa altezza del contenitore flex di header, soluzione troppo empirica */
+.jumbotron {
+    margin-top: 98px;
+    width: 100%;
+    min-height: 600px;
+    background-color: rgb(25, 74, 166);
+    padding-top: 30px;
+}
+
+.container {
+    min-height: 400px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: end;
+}
+
+.jumbo-title {
+    font-size: 2rem;
+    padding: 5px;
+}
+
+.jumbo-content {
+    flex-direction: row;
+}
+
+.jumbo-description {
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.jumbo-png {
+    width: 100%;
 }
