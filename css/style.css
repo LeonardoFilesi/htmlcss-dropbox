@@ -1,3 +1,7 @@
+:root {
+    --BlueButton:rgb(0, 79, 225);    
+}
+
 /* RESET */
 * {
     padding: 0;
@@ -49,10 +53,11 @@ footer {
     text-decoration: none;
     padding: 5px 10px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .blue {
-    background-color: rgb(0, 49, 226);
+    background-color: var(--BlueButton);
     color: white;
 }
 
@@ -66,6 +71,7 @@ footer {
 .transparent {
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(59, 59, 59);
+    color: rgb(59, 59, 59)
 }
 
 .between-space {
@@ -207,6 +213,10 @@ header {
     padding: 15px;
 }
 
+.padded-column a {
+    color: blue;
+}
+
 .col-class {
     text-align: center;
     border-bottom: 1px solid grey;
@@ -235,6 +245,7 @@ header {
     margin: 0 auto;
     border-bottom: 1px solid grey;
     width: 100%;
+    text-align: center;
 }
 
 .recap-contacts {
@@ -263,20 +274,62 @@ header {
 /* SECTION 2 */
 
 .partner-section {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding: 90px 0;
 }
 
 .partner-col1 {
     width: 60%;
 }
 
+.partner-col1 img {
+    width: 100%;
+}
+
 .partner-col2 {
     width: 40%;
+    padding: 40px 30px;
 }
+
+/* END SECTION 2 */
+
+
+
 
 /* SECTION 3 */
 
+.features-section {
+    padding: 90px 0;
+}
+
+.features-section-title {
+    width: 100%;
+    text-align: center;
+}
+
+.card {
+    flex-direction: column;
+    width: calc(100% / 3);
+    padding: 40px 0;
+}
+
+.card img {
+    width: 100%;
+}
+
+.container2 h2 {
+    width: 100%;
+}
+
+.features-section a {
+    color: blue;
+}
+
+/* END SECTION 3 */
+
+
+
+
+/* SECTION 4 */
 .left-logos {
     width: calc(100% / 3);
 }
@@ -343,18 +396,43 @@ header {
 .right-thing {
     min-height: 140px;
     width: calc(100% / 2);
-    padding: 30px;
+    padding: 60px;
+    justify-content: center;
 }
 
-.right-thing p {
-    display: flex;
-    justify-content: left;
-    align-items: center;
+.right-thing a {
+    justify-content: center;
 }
 
  /* END LOGOS */
 
- /* END SECTION 3 */
+ /* END SECTION 4 */
+
+
+
+
+ /* SECTION 5 */
+
+.faq {
+    padding: 60px 0 30px 0;
+}
+
+.faq-menu p {
+    width: 100%;
+    padding: 30px 0;
+}
+
+ .faq-menu i {
+    justify-content: flex-end;
+    padding: 30px 0;
+ }
+
+ .faq-last-hr {
+    margin: 0 0 90px 0;
+ }
+
+ /* END SECTION 5 */
+
 
 
 
@@ -369,7 +447,6 @@ header {
  .unpadded-column {
     flex-direction: column;
     width: calc(100% / 5);
-    padding: 20px;
 }
 
 .unpadded-column strong {
@@ -379,4 +456,16 @@ header {
 .unpadded-column li {
     list-style-type: none;
     color: white;
+    padding: 5px 0;
 }
+
+.footer-nav-options p {
+    color: rgb(240, 240, 240);
+    width: 100%;
+}
+
+.footer-nav-options i {
+    color: white;
+}
+
+/* END FOOTER */
