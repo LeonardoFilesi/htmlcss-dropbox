@@ -45,28 +45,26 @@ footer {
     background-color: rgb(106, 195, 225);
 }
 
-
-.blue-link {
+.button {
     text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 auto;
+}
+
+.blue {
     background-color: rgb(0, 49, 226);
     color: white;
-    padding: 5px 10px;
-    margin: 0 auto;
 }
 
-.grey-link {
-    text-decoration: none;
+.grey {
+    
     background-color: rgb(219, 227, 255);
     color: rgb(54, 54, 54);
-    padding: 5px 10px;
-    margin: 0 auto;
+
 }
 
-.transparent-link {
-    text-decoration: none;
+.transparent {
     background-color: rgb(255, 255, 255);
-    padding: 5px 10px;
-    margin: 0 auto;
     border: 1px solid rgb(59, 59, 59);
 }
 
@@ -94,39 +92,33 @@ header {
     width: 100%;
     height: 80px;
     background-color: white;
+    box-shadow:0 1px 3px #666666;
+}
+
+
+.navigation-bar a {
+    text-decoration: none;
+    padding: 5px 10px;
 }
 
 .left-content {
-    min-width: 450px;
     padding: 5px;
+    align-items: center;
 }
 
 .logo {
     height: 80%;
 }
 
-.nav-options {
-    margin-left: 1rem;
-}
-
-.nav-options a {
-    text-decoration: none;
-    margin-left: 3px;
-}
-
 .right-content {
-    min-width: 450px;
     padding: 5px;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .nav-interface {
     text-decoration: none;
     margin-right: 5px;
-}
-
-.nav-interface a {
-    text-decoration: none;
-    margin-left: 3px;
 }
 
 /* END HEADER */
@@ -209,7 +201,6 @@ header {
     flex-direction: column;
     border: 1px solid grey;
     width: 25%;
-    padding: 15px;
 }
 
 .padded-column p {
@@ -217,9 +208,8 @@ header {
 }
 
 .col-class {
-    display: flex;
-    align-items: center;
-    border: 1px solid grey;
+    text-align: center;
+    border-bottom: 1px solid grey;
 }
 
 .col-title {
@@ -228,6 +218,7 @@ header {
 
 .col-plan-time {
     margin-bottom: 40px;
+    color: rgba(97, 97, 97, 0.797);
 }
 
 /* END COLUMNS */
