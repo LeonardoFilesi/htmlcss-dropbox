@@ -57,6 +57,10 @@ footer {
     text-align: center;
 }
 
+.button:hover {
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+
 .blue {
     background-color: var(--BlueButton);
     color: white;
@@ -108,6 +112,10 @@ header {
 .navigation-bar a {
     text-decoration: none;
     padding: 5px 10px;
+}
+
+.navigation-bar a:hover {
+    border-bottom: 2px solid black;
 }
 
 .left-content {
@@ -382,6 +390,10 @@ header {
     padding: 70px;
 }
 
+.left-logos img {
+    filter: invert(1);
+}
+
 /* LOGOS BACKGROUND COLORS */
 
 .bcolor1 {
@@ -441,8 +453,12 @@ header {
     padding: 60px 0 30px 0;
 }
 
+.faq-menu {
+    
+}
+
 .faq-menu p {
-    width: 100%;
+    width: 90%;
     padding: 30px 0;
 }
 
@@ -453,6 +469,16 @@ header {
 
  .faq-last-hr {
     margin: 0 0 90px 0;
+ }
+
+ .answer {
+    display: none;
+    padding: 30px 0;
+    width: 100%;
+ }
+
+ .faq-menu:hover .answer {
+    display: block;
  }
 
  /* END SECTION 5 */
